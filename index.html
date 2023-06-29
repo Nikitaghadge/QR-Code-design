@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <link rel="icon" href="./images/favicon-32x32.png" type="image/icon type">
+  <title>Frontend Mentor | QR code component</title>
+  
+  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Outfit'>
+  
+  <style>
+  * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+    }
+
+    body
+    {
+      background: hsl(212, 45%, 89%);
+      font-family: 'Outfit';
+      font-size: 15px;
+      font-weight: 400-700;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:100vh;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+    
+    .flex-container
+    {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .flex-container > div 
+    {
+      background-color: hsl(0, 0%, 100%);
+      margin: 10px;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 375px;
+      width: 375x;
+    }
+
+    .flex-container h4
+    {
+      width: 100%;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color:hsl(218, 44%, 22%);
+      padding:5px;
+    }
+
+    .flex-container p
+    {
+      width: 100%;
+      font-size: 1.2rem;
+      padding-bottom: 20px; 
+      color:hsl(220, 15%, 55%);
+      font-weight: 400;
+      padding:10px;
+    }
+
+    img
+    {
+      max-width: 100%;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div><img src="./images/image-qr-code.png" alt="QR code image">
+      <h4>Improve your front-end skills by building projects</h4> <br/>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+</body>
+</html>
